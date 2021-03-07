@@ -1,0 +1,204 @@
+.navbar {
+  background: #000000;
+}
+
+.navbar h5 {
+  color: #D9D9D9;
+}
+
+.navbar .nav-item {
+  padding-left: 1em;
+}
+
+.navbar .nav-link {
+  color: #D9D9D9;
+  text-transform: uppercase;
+}
+
+/** slider section **/
+.carousel-item {
+  height: 650px;
+}
+
+.carousel-caption {
+  margin-bottom: 200px;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel-img-1 {
+  background-image: url(../images/image2.jpeg);
+  background-size: cover;
+}
+
+.carousel-img-2 {
+  background-image: url(../images/image1.jpeg);
+  background-size: cover;
+}
+
+.carousel-img-3 {
+  background-image: url(../images/image3.jpeg);
+  background-size: cover;
+}
+
+/** home icon section **/
+#home_icon .fas {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/** ready section **/
+#ready {
+  background-image: url("../images/bg1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+  color: #fff;
+}
+
+#ready .bg-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#ready .ready-inner {
+  margin-top: 74px;
+}
+
+#ready h3 {
+  color: #fff;
+}
+
+/** video section **/
+#video {
+  background-image: url("../images/people.jpeg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#video .bg-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  padding: 80px 0px;
+}
+
+#video .fab {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #E50000;
+}
+
+#video h2 {
+  color: #fff;
+}
+
+/** gallary section **/
+#gallary img {
+  min-height: 250px;
+}
+
+#newsletter {
+  background: #31373D;
+}
+
+#newsletter h2 {
+  color: #fff;
+}
+
+#footer {
+  background: #000;
+}
+
+/** about us page design **/
+#page-title {
+  background-image: url("../images/image1.jpeg");
+  height: 200px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#page-title h2 {
+  margin-top: 60px;
+}
+
+#what-wedo img {
+  width: 350px;
+  height: 350px;
+}
+
+#card-info .fas, #card-info .fab {
+  font-size: 50px;
+}
+
+.slick-prev:before {
+  color: #000;
+  margin-right: 30px;
+}
+
+.slick-next:before {
+  color: #000;
+}
+
+.blockquote {
+  margin-left: 20px;
+}
+
+/** Service page design **/
+#service-header {
+  background-image: url("../images/image3.jpeg");
+  height: 200px;
+  background-size: cover;
+}
+
+#faq h5 {
+  margin-bottom: 0px;
+}
+
+/** media quary **/
+@media (max-width: 991px) {
+  #gallary img {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel-caption h2 {
+    font-size: 2.5rem !important;
+  }
+  .carousel-inner {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  #ready {
+    height: 350px;
+  }
+  #ready .ready-inner {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 415px) {
+  #ready h3 {
+    font-size: 1.5rem;
+  }
+  #ready .ready-inner {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
